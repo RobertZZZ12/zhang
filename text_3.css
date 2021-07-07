@@ -1,0 +1,116 @@
+body{
+    background: gray;
+    color: whitesmoke;
+}
+.nav{
+    height: 41px;
+    text-align: center;
+    border-bottom: 3px solid #48a8a2;
+    background-color:rgb(112, 124, 129);
+    line-height: 41px;
+}
+.nav a{
+    text-decoration: none;
+    display: inline-block;
+    height: 41px;
+    font-size: 15px;
+    color: whitesmoke;
+    padding: 0px 20px;
+}
+a:visited{
+    color:whitesmoke ;
+}
+a:hover{
+    color: aquamarine;
+}
+.footer {
+    background-color: gray;
+    width: 1200px;
+    height: 45px;
+    float: left;
+    line-height: 48px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer p{
+    font-size: 10px;
+    color: black;
+    line-height: 18px;
+    text-align: center;
+}
+img{
+    padding-top: 10px;
+    height: 200px;
+}
+ul{
+    list-style: none;
+}
+.item{
+    padding-left: 20px;
+    cursor: pointer;
+    margin: 0;
+    float: left;
+    position: relative;
+    vertical-align: bottom;
+    text-decoration: none;
+}
+.guangzhou{
+    margin: 20px;
+    float: left;
+    border-bottom:2px solid ;
+}
+.guangzhou h2{
+    text-align:left;
+    font-family: "一纸情书";
+    color: whitesmoke;
+}
+.cont_1{
+    float: left;
+    padding-bottom :10px; ;
+}
+.cont_1 a{
+    color: blanchedalmond;
+    font-size: 15px;
+    display: inline-block;
+    padding-bottom: 10px;
+    font-family: "一纸情书";
+    text-align: center;
+}
+.plan{
+    text-align: center;
+    font-size: 20px;
+}
+.plan a{
+    padding-top: 20px; 
+}
+table{
+    display: table;
+    box-sizing: border-box;
+    text-indent: initial;
+    border: 1px solid black;
+    border-width: 1px 0px 0px 1px;
+    width: 80%;
+    text-align: center;
+    margin: 160px auto;
+}
+td{
+    border: solid black;
+    border-width: 0px 1px 1px 0px;
+    padding: 2px 15px;
+    height: 50px;
+    font-family: "一纸情书";
+   
+    width: 25%;
+    line-height: 200%;
+}
+.plan a{
+    font-size: 20px;
+    font-family: "一纸情书";
+}
+.plan table{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.plan .time{
+    font-weight: bolder;
+}
